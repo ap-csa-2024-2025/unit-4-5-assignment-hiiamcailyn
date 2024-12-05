@@ -2,33 +2,28 @@ import java.util.Scanner;
 
 public class Main
 {
+
+
   public static void main(String[] args)
   {
-    // Make sure to test your methods here
   }
 
-  public static void printNTimes(String word, int N)
-  {
-    // code solution here
+  public boolean isSelfDivisor(int number)
+    int number1 = number
+    int digit;
+    // get through every number loop 
+    while (number > 0)
+    (
+      int digit = number % 10;
+      number /= 10; 
+    )
+    /// check if the number is divisible 
+    if (digit = 0) || (number1 % digit != 0)
+    {
+      return (false);
+    }
+    else
+      {
+        return (true);
+      }
   }
-
-  public static void printNums()
-  {
-    // code solution here
-  }
-
-  public static void uprightNumberTriangle(int N)
-  {
-    // code solution here
-  }
-
-  public static void starTree()
-  {
-    // code solution here
-  }
-
-  public static void multTable()
-  {
-    // code solution here
-  }
-}
